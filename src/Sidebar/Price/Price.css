@@ -1,0 +1,17 @@
+
+.inputsContainer{
+
+    margin-left: 14px;
+}
+.labelCntainer{
+
+    margin-left: 14px;
+}
+.PriceTag{
+
+    font-weight: bolder;
+    font-size: 17px;
+    margin-left: 1px;
+    margin-top: 2px;
+    color: green;
+}

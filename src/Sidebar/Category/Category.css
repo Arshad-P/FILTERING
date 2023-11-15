@@ -1,0 +1,19 @@
+
+.categoryInputs{
+
+    margin-left: 14px;
+  
+}
+.labelCategory{
+
+    margin-left: 14px;
+
+}
+.categoryTag{
+
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 1px;
+    margin-top: 10px;
+    color: green;
+}

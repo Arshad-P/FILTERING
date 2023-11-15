@@ -1,0 +1,22 @@
+
+.colorsInputs{
+
+    margin-left: 14px;
+}
+
+.colorsLabel{
+
+    margin-left: 14px;
+}
+.colorsall{
+
+    margin-left: 5px;
+}
+.colorsTag{
+
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 1px;
+    margin-top: 10px;
+    color: green;
+}
