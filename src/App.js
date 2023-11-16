@@ -16,20 +16,16 @@ import Recommend from './Recommended/Recommend';
 import Sidebar from './Sidebar/SidebarGlobal';
 import { useState } from 'react';
 
-import './App.css'
 
-// database
 
+// database-Api
 import ProductsDataBase from './database/data'
 import CardProduct from './Components/CardProduct'
 
 
 
 
-
-
-
-const drawerWidth = 240;
+const drawerWidth = 160;
 
 const openedMixin = (theme) => ({
   width: drawerWidth,
@@ -98,35 +94,31 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
 
 
 
-
-   // below Funtionality part started
+//Below Product Funtionalities part started of Apllicaion.
 
 // Function 
 export default function MiniDrawer() {
 
-
   const [selectedCategory, setSelectedCategory ] = useState(null);
   const [query,setQuery] = useState('')
 
-
-// input Filter ----------
+// input Filtering ----------
 const handleInputChange = event =>{
   setQuery(event.target.value)
 }
    
-
 const FilteredItems = ProductsDataBase.filter(Product => Product.title.toLowerCase().indexOf(query.toLowerCase())!== -1
 );
 
 
- // Radio Filter ----------
+ // Radio Filtering ----------
 const handleChange = event => {
 
   setSelectedCategory(event.target.value)
 }
 
 
-// Buttons Filter ----------
+// Buttons Filtering ----------
 const handleClick = event =>{
 
   setSelectedCategory(event.target.value)
@@ -157,7 +149,6 @@ if(selected){
 return filteredProductss.map(({img,title,star,reviews,newPrice, prevPrice})=>(
 
   <CardProduct
-
   key={Math.random()}
   img={img}
   title={title}
@@ -169,7 +160,6 @@ return filteredProductss.map(({img,title,star,reviews,newPrice, prevPrice})=>(
 ))
 }
 
-
 const result = filteredData(ProductsDataBase, selectedCategory, query)
 
   const theme = useTheme();
@@ -178,15 +168,12 @@ const result = filteredData(ProductsDataBase, selectedCategory, query)
   const handleDrawerOpen = () => {
     setOpen(true);
   };
-
   const handleDrawerClose = () => {
     setOpen(false);
   };
 
 
-
   return (
-
 
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
@@ -205,11 +192,8 @@ const result = filteredData(ProductsDataBase, selectedCategory, query)
             <MenuIcon />
           </IconButton>
 
-
           <NavSearchBar query={query} handleInputChange ={handleInputChange}/>
        
-
-
 
         </Toolbar>
       </AppBar>
@@ -242,7 +226,6 @@ const result = filteredData(ProductsDataBase, selectedCategory, query)
 
       <Box>
         <DrawerHeader />
-
 
   
         <Recommend handleClick={handleClick}/>

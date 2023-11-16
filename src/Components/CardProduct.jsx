@@ -4,16 +4,19 @@
 import React from 'react'
 
 import {BsFillBagHeartFill} from 'react-icons/bs'
+import './CardProduct.css'
 
 
 const CardProduct = ({img,title,star,reviews,newPrice, prevPrice}) => {
   return (
 
     <>
+    <div className='productContainer'>
+
     <section className='card'>
         <img src={img} alt={title} className='card-img'/>
 
-        <div className='card-details'>
+        <section >
           <h3 className='card-title'>
                {title}
           </h3>
@@ -26,19 +29,20 @@ const CardProduct = ({img,title,star,reviews,newPrice, prevPrice}) => {
                 </section>
              
              <section className='card-price'>
-              <div className='price'>
-              {newPrice}  <br/> <del>{prevPrice}</del> 
-              </div>
+         <section className='price'>
+          {newPrice}  - <del>{prevPrice}</del> 
+              </section>
               
-              <div className='bag'>
+              <section className='bag'>
                      
             <BsFillBagHeartFill className='bag-icon'/>
-              </div>
+              </section>
              </section>
 
         
-        </div>
+        </section>
       </section>
+      </div>
     </>
   )
 }
