@@ -2,9 +2,9 @@
 
 
 import React from 'react'
-
 import {BsFillBagHeartFill} from 'react-icons/bs'
 import './CardProduct.css'
+
 
 
 const CardProduct = ({img,title,star,reviews,newPrice, prevPrice}) => {
@@ -12,7 +12,6 @@ const CardProduct = ({img,title,star,reviews,newPrice, prevPrice}) => {
 
     <>
     <div className='productContainer'>
-
     <section className='card'>
         <img src={img} alt={title} className='card-img'/>
 
@@ -42,6 +41,8 @@ const CardProduct = ({img,title,star,reviews,newPrice, prevPrice}) => {
         
         </section>
       </section>
+
+
       </div>
     </>
   )

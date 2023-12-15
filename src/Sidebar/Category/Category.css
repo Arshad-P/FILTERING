@@ -1,12 +1,15 @@
 
 .categoryInputs{
 
-    margin-left: 14px;
+    margin-left: 10px;
+     padding: 5px;
   
 }
 .labelCategory{
 
-    margin-left: 14px;
+    margin-left: 16px;
+
+   
 
 }
 .categoryTag{
@@ -14,6 +17,11 @@
     font-weight: bolder;
     font-size: 15px;
     margin-left: 1px;
-    margin-top: 10px;
+    margin-top: 25px;
     color: green;
+}
+
+.All{
+
+  
 }

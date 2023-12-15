@@ -16,15 +16,16 @@ const Recommend = ({handleClick}) => {
 const tostify3 = ()=>{
 
 
-  toast.success('Branding Filtered Successfully', {
+  toast.success('Branding Filtered Succssfully', {
     position: "top-right",
-    autoClose: 3000,
+    autoClose: 1000,
     hideProgressBar: false,
     closeOnClick: true,
     pauseOnHover: true,
     draggable: true,
     progress: undefined,
     theme: "dark",
+    
     });
 
 }
@@ -47,10 +48,11 @@ const tostify3 = ()=>{
    
     <Button onClickHandler ={handleClick} value ='Puma' title='Puma'/>
 
-     <Button onClickHandler ={handleClick} value ='Nike' title='Nike'/>
-
      <Button onClickHandler ={handleClick} value ='Vans' title='Vans'/>
-<br />
+
+
+     <Button onClickHandler ={handleClick} value ='Nike' title='Nike'/>
+     <br />
      <Button onClickHandler ={handleClick} value ='Adidas' title='Adidas'/>
      
      <Button onClickHandler ={handleClick} value ='Skechers' title='Skechers'/>
@@ -58,9 +60,10 @@ const tostify3 = ()=>{
      <Button onClickHandler ={handleClick} value ='Sparx' title='Sparx'/>
 
 </div>
+
 <ToastContainer
 position="top-right"
-autoClose={3000}
+autoClose={1000}
 hideProgressBar={false}
 newestOnTop={false}
 closeOnClick
@@ -70,26 +73,10 @@ draggable
 pauseOnHover
 theme="dark"
 />
+
     </div>
     </div>
     
-
-
-    <div className='AdvertisementContainer'>
-   <div className='productContainer1'>
-     <h1 className='ProductAdvertisement01'>
-      Product
-      </h1> 
-    </div>
-  <br /> 
-
-     <div className='productContainer2'>
-     <h1 className='ProductAdvertisement02'>
-      Filtering & Searching . . .
-      </h1>
- </div>
-   </div>
-
     </>
   )
 }

@@ -12,7 +12,7 @@ const Category = ({handleChange}) => {
      <div>
      <label className='labelCategory'>
       <input onChange={handleChange} type="radio" value="" name='test'/>
-      <span> All</span>
+      <span className='All'> All</span>
      </label>
 <br />
 

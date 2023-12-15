@@ -79,6 +79,8 @@ const data = [
 
   
   
+
+
   {
     img: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/l/z/o/11-21169280-45-hrx-by-hrithik-roshan-blue-original-imagqcxustuzcc7c.jpeg?q=70",
 
@@ -108,19 +110,6 @@ const data = [
     category: "loafers",
   },
   
-  {
-    img: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/u/h/n/6-lssumcpta-louis-stitch-cameleon-red-original-imagkqkysjjzgmwv.jpeg?q=70",
-
-    title: "Adidas p4 red loafers",
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$543",
-    newPrice: "150",
-    company: "Adidas",
-    color: "red",
-    category: "loafers",
-  },
-
   {
     img: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/2/g/g/5-7008-rindas-black-original-imagsdk7m8djjnyz.jpeg?q=70",
     title: "Vans p2 Loafers black",
@@ -345,6 +334,19 @@ const data = [
   },
 
 
+  {
+    img: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/u/h/n/6-lssumcpta-louis-stitch-cameleon-red-original-imagkqkysjjzgmwv.jpeg?q=70",
+
+    title: "Adidas p4 red loafers",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    prevPrice: "$543",
+    newPrice: "150",
+    company: "Adidas",
+    color: "red",
+    category: "loafers",
+  },
+
   
   {
     img: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/a/h/9/-original-imagsz2uufagx3qh.jpeg?q=70",
@@ -359,6 +361,8 @@ const data = [
     category: "sneakers",
   },
     
+
+
 
   {
     img: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/r/f/5/11-2531910312-11-u-s-polo-assn-off-white-original-imags5qhjgh9sgq2.jpeg?q=70",
@@ -541,6 +545,48 @@ const data = [
   },
 
   
+  {
+    img: "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-shoe/6/s/5/3-403878l-skechers-original-imagnax9gfeeueky.jpeg?q=70",
+
+    title: "Skechers p4 red cashual",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    prevPrice: "$369",
+    newPrice: "100",
+    company: "Skechers",
+    color: "red",
+    category: "casual shoes",
+  },
+
+  
+
+  {
+    img: "https://rukminim2.flixcart.com/image/612/612/l4iscy80/kids-shoe/z/m/d/3-403765l-wht-skechers-original-imagfemyhg2bqmy8.jpeg?q=70",
+
+    title: "Skechers p5 white sneakers",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    prevPrice: "$269",
+    newPrice: "100",
+    company: "Skechers",
+    color: "white",
+    category: "sneakers",
+  },
+
+  {
+    img: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/s/d/2/6-232135-7-skechers-nvy-original-imagnxauwgxhy3hd.jpeg?q=70",
+
+    title: "Skechers p6 blue sneakers",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    prevPrice: "$169",
+    newPrice: "100",
+    company: "Skechers",
+    color: "blue",
+    category: "sneakers",
+  },
+
+
   {
     img: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/1/y/b/-original-imaghvb7sxg5tpgv.jpeg?q=70",
 
