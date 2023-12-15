@@ -27,9 +27,7 @@ const tostify3 = ()=>{
     theme: "dark",
     
     });
-
 }
-
 
 
   return (
@@ -37,7 +35,7 @@ const tostify3 = ()=>{
     <>
   <div>
   <h2 className='recommend-title'>
-    Recommended
+   Filtering & Searching
   </h2>
 
   <div className='recommend-flex'>

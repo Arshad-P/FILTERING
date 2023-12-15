@@ -3,13 +3,10 @@
 
 import React from 'react'
 import './NavSearchBar.css'
-
+import AlertImage from './image/alert image red color.png'
 
 const NavSearchBar = ({ handleInputChange, query }) => {
 
-
-// alert image (copied image address from google)
-const AlertImage = 'https://cdn-icons-png.flaticon.com/512/5610/5610989.png'
 
 
   return (
